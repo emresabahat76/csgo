@@ -16,5 +16,22 @@ namespace Counter_Strike__Global_Offensive
         {
             InitializeComponent();
         }
+
+        Form2 form2 = new Form2();
+        private void button1_Click(object sender, EventArgs e)
+        {                     
+            if (textBox1.Text == "admin" && textBox2.Text == "admin")
+            {
+                form2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Hesap Bilgileriniz Yanlıştır, Lütfen Yeniden Deneyiniz.");
+
+                textBox1.Clear();
+                textBox2.Clear();
+            }
+        }
     }
 }
