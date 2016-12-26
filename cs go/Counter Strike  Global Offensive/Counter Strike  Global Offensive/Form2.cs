@@ -16,5 +16,11 @@ namespace Counter_Strike__Global_Offensive
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox1.Text = label2.Text;
+            numericUpDown1.Value = int.TryParse(lavel3.text);
+        }
     }
 }
