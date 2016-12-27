@@ -35,7 +35,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(768, 486);
+            this.BackgroundImage = global::Counter_Strike__Global_Offensive.Properties.Resources._587593;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(790, 491);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);

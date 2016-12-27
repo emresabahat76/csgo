@@ -63,6 +63,16 @@ namespace Counter_Strike__Global_Offensive.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap _587593 {
+            get {
+                object obj = ResourceManager.GetObject("587593", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Key_PNG_Photos {
             get {
                 object obj = ResourceManager.GetObject("Key-PNG-Photos", resourceCulture);
